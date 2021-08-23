@@ -1,19 +1,32 @@
 <template>
   <div class="result">
-    <div class="title">You got sample result 1!</div>
+    <div class="title">{{ results[resultIndex].title }}</div>
     <div class="desc">
-      Enter a short description here about the result.
+      {{ results[resultIndex].desc }}
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  props: ['results', 'totalResults'],
+  computed: {
+    resultIndex() {
+      let currentIndex = 0
+      this.results.forEach((iteration, index) => {
+        if (iteration.max <= this.totalResults && iteration.max >= this.totalResults) {
+          currentIndex = index
+        }
+      })
+      return currentIndex
+    },
+  }
+}
 </script>
 
 <style scoped>
   .result {
-    width: 100%;
+    width: 50%;
   }
   .title {
     width: 100%;
