@@ -49,7 +49,7 @@ module.exports = {
     'eol-last': 2,
     'eqeqeq': ["error", "always", {"null": "ignore"}],
     'generator-star-spacing': [2, {
-      before': true,
+      before: true,
       after: true
     }],
     'handle-callback-err': [2, '^(err|error)$'],
