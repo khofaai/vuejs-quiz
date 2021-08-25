@@ -15,10 +15,10 @@ module.exports = {
   //it is base on https://github.com/vuejs/eslint-config-vue
   rules: {
     "vue/max-attributes-per-line": [2, {
-      "singleline": 10,
-      "multiline": {
-        "max": 1,
-        "allowFirstLine": false
+      singleline: 10,
+      multiline: {
+        max: 1,
+        allowFirstLine: false
       }
     }],
     "vue/singleline-html-element-content-newline": "off",
@@ -27,20 +27,20 @@ module.exports = {
     "vue/no-v-html": "off",
     'accessor-pairs': 2,
     'arrow-spacing': [2, {
-      'before': true,
-      'after': true
+      before: true,
+      after: true
     }],
     'block-spacing': [2, 'always'],
     'brace-style': [2, '1tbs', {
-      'allowSingleLine': true
+      allowSingleLine: true
     }],
-    'camelcase': [0, {
-      'properties': 'always'
+    camelcase: [0, {
+      properties: 'always'
     }],
     'comma-dangle': [2, 'only-multiline'],
     'comma-spacing': [2, {
-      'before': false,
-      'after': true
+      before: false,
+      after: true
     }],
     'comma-style': [2, 'last'],
     'constructor-super': 2,
@@ -49,26 +49,26 @@ module.exports = {
     'eol-last': 2,
     'eqeqeq': ["error", "always", {"null": "ignore"}],
     'generator-star-spacing': [2, {
-      'before': true,
-      'after': true
+      before': true,
+      after: true
     }],
     'handle-callback-err': [2, '^(err|error)$'],
     'vue/html-indent': ["error", 2],
     'indent': ["error", 2, {
-      'SwitchCase': 1
+      SwitchCase: 1
     }],
     'jsx-quotes': [2, 'prefer-single'],
     'key-spacing': [2, {
-      'beforeColon': false,
-      'afterColon': true
+      beforeColon: false,
+      afterColon: true
     }],
     'keyword-spacing': [2, {
-      'before': true,
-      'after': true
+      before: true,
+      after: true
     }],
     'new-cap': [2, {
-      'newIsCap': true,
-      'capIsNew': false
+      newIsCap: true,
+      capIsNew: false
     }],
     'new-parens': 2,
     'no-array-constructor': 2,
@@ -101,15 +101,15 @@ module.exports = {
     'no-iterator': 2,
     'no-label-var': 2,
     'no-labels': [2, {
-      'allowLoop': false,
-      'allowSwitch': false
+      allowLoop: false,
+      allowSwitch: false
     }],
     'no-lone-blocks': 2,
     'no-mixed-spaces-and-tabs': 2,
     'no-multi-spaces': 2,
     'no-multi-str': 2,
     'no-multiple-empty-lines': [2, {
-      'max': 1
+      max: 1
     }],
     'no-native-reassign': 2,
     'no-negated-in-lhs': 2,
@@ -144,8 +144,8 @@ module.exports = {
     'no-unreachable': 2,
     'no-unsafe-finally': 2,
     'no-unused-vars': [2, {
-      'vars': 'all',
-      'args': 'none'
+      vars: 'all',
+      args: 'none'
     }],
     'no-useless-call': 2,
     'no-useless-computed-key': 2,
@@ -154,10 +154,10 @@ module.exports = {
     'no-whitespace-before-property': 2,
     'no-with': 2,
     'one-var': [2, {
-      'initialized': 'never'
+      initialized: 'never'
     }],
     'operator-linebreak': [2, 'after', {
-      'overrides': {
+      overrides: {
         '?': 'before',
         ':': 'before'
       }
@@ -168,19 +168,19 @@ module.exports = {
       'allowTemplateLiterals': true
     }],
     'semi-spacing': [2, {
-      'before': false,
-      'after': true
+      before: false,
+      after: true
     }],
     'space-before-blocks': [2, 'always'],
     'space-before-function-paren': [2, 'never'],
     'space-in-parens': [2, 'never'],
     'space-infix-ops': 2,
     'space-unary-ops': [2, {
-      'words': true,
-      'nonwords': false
+      words: true,
+      nonwords: false
     }],
     'spaced-comment': [2, 'always', {
-      'markers': ['global', 'globals', 'eslint', 'eslint-disable', '*package', '!', ',']
+      markers: ['global', 'globals', 'eslint', 'eslint-disable', '*package', '!', ',']
     }],
     'template-curly-spacing': [2, 'never'],
     'use-isnan': 2,
